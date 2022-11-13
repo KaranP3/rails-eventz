@@ -1,5 +1,3 @@
 class HomeController < ApplicationController
-  def index
-    @name = 'Eventz'
-  end
+  def index; end
 end
