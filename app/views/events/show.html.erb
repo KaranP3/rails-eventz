@@ -1,10 +1,9 @@
-<p style="color: green"><%= notice %></p>
+<h1 class="text-lg leading-6 font-medium text-gray-900">Event</h1>
 
-<%= render @event %>
+<ul>
+  <%= render @event %>
+</ul>
 
-<div>
-  <%= link_to "Edit this event", edit_event_path(@event) %> |
-  <%= link_to "Back to events", events_path %>
-
-  <%= button_to "Destroy this event", @event, method: :delete %>
+<div class="mt-6">
+  <%= link_to "🔙 Events", events_path, class: "hover:underline"%>
 </div>
