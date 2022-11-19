@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :events
   root 'home#index'
   get 'about', to: 'about#index'
+  post 'registrations', to: 'registrations#create'
 end
